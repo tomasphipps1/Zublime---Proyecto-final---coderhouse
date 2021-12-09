@@ -1,0 +1,144 @@
+/* Header style */
+
+@import "../base/variables";
+
+
+
+.headerContainer {
+    height: 70px;
+    width: 100%;
+    background-color: $color-one;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+
+
+
+
+}
+
+.logoHeader {
+    width: 55px;
+    margin-top: 1.1em;
+    margin-left: 1em;
+
+    @media screen and (max-width:950px) {
+        width: 55px;
+        margin-top: 1.1em;
+        margin-left: 1em;
+        
+    }
+
+}
+
+.headerContainerMediaScreen {
+    display: none;
+    margin-right: 1em;
+    
+
+    @media screen and (max-width:950px) {
+        display: flex;
+    }
+    
+        
+
+}
+
+.tomasContainerFluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.navBarContainer  {
+    color: black;
+    padding-top: 1em;
+    margin-right: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    @media screen and (max-width:950px) {
+        display: none;
+        
+    }
+
+}
+
+.navBar {
+    color: black;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: end;
+
+ }
+
+
+ .navBarItems a {
+    
+    color: black;
+    margin: 0.4em;
+    transition: all 0.1s;
+
+    &:hover {
+        font-weight: 900;
+    }
+
+    @media screen and (max-width:950px) {
+        padding-bottom: 1em;
+    }
+
+
+}
+
+.tomasButton {
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    transform: none;
+}
+
+
+.carritoComprasImg {
+    width: 1.2em;
+
+    @media screen and (max-width:950px) {
+    margin-right: 1em;
+    display: flex;
+    width: 1.6em;
+    }
+
+
+}
+
+
+
+.cajaDesplegableTomas {
+   background-color: white;
+}
+
+.tomasItemsListaDesplegable {
+    font-weight: 500;
+    padding-left: 0.3em;
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    color: black; 
+
+    &:hover {
+        color: black;
+        font-weight: 900;
+    }
+}
+
+.menuIcon {
+    width: 35px;
+}

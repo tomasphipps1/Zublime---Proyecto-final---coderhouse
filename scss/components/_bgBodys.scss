@@ -1,0 +1,51 @@
+
+
+/* Background image */
+
+#bodyOne {
+    background-image: url(../multimedia/backgroundimage.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+    @media screen and (max-width:1400px) {
+        background-image: url(../multimedia/backgroundimageindexmedia.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+    
+
+    @media screen and (max-width:1250px) {
+        background-image: url(../multimedia/backgroundimageindexmobil.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+
+    @media screen and (max-width:600px) {
+        background-image: url(../multimedia/backgroundimageindexsmall.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+
+        
+    }
+}
+
+#bodyTwo {
+    background-image: url(../multimedia/backgroundimagecuatro.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#bodyThree {
+    background-image: url(../multimedia/backgroundimagetres.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#bodyFour {
+    background-image: url(../multimedia/backgroundimagedos.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* End Background image */
+

@@ -1,0 +1,50 @@
+.comoComprarTitle {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 0.6em;
+}
+
+.comoComprarSeccion {
+    padding-left: 10em;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    
+}
+
+.seccionIcon {
+    display: flex;
+
+    
+}
+
+.numberIcon {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+
+}
+
+.iconContainerComoComprar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 22em;
+}
+
+.textPasos {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.imgEnviosContainer {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+

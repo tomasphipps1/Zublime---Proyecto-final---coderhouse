@@ -1,0 +1,78 @@
+.map {
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.containerInfoContacto {
+    padding-top: 16em;
+    margin-left: 11.5em;
+}
+
+.titleInfoContacto {
+    color: rgb(255, 0, 126);
+    font-family: 'Raleway', sans-serif;
+    font-size: map-get($tituloSecciones , sizeFontTitle );
+    font-weight:map-get($tituloSecciones , fontWeightTitle );
+    margin-bottom: 0.3em;
+
+}
+
+.parrafoInfoContacto {
+    width: 45%;
+    font-family: 'Raleway', sans-serif;
+    font-size: map-get($cuerpo-de-texto , sizeFont);
+    font-weight: map-get($cuerpo-de-texto , fontWeight);
+
+}
+
+.parrafoUnoContacto {
+    margin-bottom: 1em;
+}
+
+.listConteinerInfo {
+    margin-left: 8em;
+}
+
+.conteinerTextContacto {
+    display: flex;
+}
+
+.conteinerItemsInfo {
+    display: flex;
+    padding-bottom: 1.4em;
+}
+
+.itemsInfoContacto {
+    font-family: 'Raleway', sans-serif;
+    font-size: map-get($cuerpo-de-texto , sizeFont);
+    font-weight: map-get($cuerpo-de-texto , fontWeight);
+    padding-left: 1em;
+
+
+}
+
+.iconInfoContacto {
+    width: 28px;
+    height: 100%;
+}
+
+.containerHunoContacto {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.hunoContacto {
+    width: 500px;
+    background-color: $color-two;
+    display: flex;
+    color: white;
+    padding: 0.3em;
+    margin-top: 2.5em;
+    font-weight: 800;
+    position:absolute;
+    font-size: 3em;
+    z-index: 99;
+}

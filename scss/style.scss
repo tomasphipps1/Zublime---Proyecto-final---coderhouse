@@ -1,0 +1,42 @@
+
+/*Reseteo de estilos generales*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    margin: none;
+    padding: none;
+
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+
+}
+
+
+
+
+
+@import "components/section-one-inicio";
+@import "components/footer";
+@import "components/header";
+@import "base/variables";
+@import "base/mediaQuery";
+@import "components/bgBodys";
+@import "components/carousel-inicio";
+@import "components/section-two-inicio";
+@import "components/section-three-incio";
+@import "components/page-nosotros";
+@import "components/page-contactos"
+
+
+
+
+
+
+
+
+

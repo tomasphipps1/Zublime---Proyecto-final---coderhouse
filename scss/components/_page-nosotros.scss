@@ -1,0 +1,59 @@
+/* NOSOTROS */
+
+.quienesSomosContent {
+    padding-top: 20em;
+    margin-left: 4em;
+
+}
+
+.parrafoQuienesSomosSection {
+    margin-right: 15em;
+    margin-left: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-size: map-get($cuerpo-de-texto , sizeFont);
+    font-weight: map-get($cuerpo-de-texto , fontWeight);
+}
+
+.titleQuienesSomosPage {
+    color: $color-three;
+    font-family: 'Raleway', sans-serif;
+    font-size: map-get($tituloSecciones , sizeFontTitle );
+    font-weight:map-get($tituloSecciones , fontWeightTitle );
+    margin-bottom: 0.3em;
+    margin-left: 0.3em;
+
+
+
+}
+
+.tituloParrafoContainer {
+    margin-bottom: 6em;
+    margin-right: 40em;
+}
+
+.parrafoUnoNosotros {
+    margin-bottom: 1em;
+}
+
+
+.containerHunoNosotros {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.hunoNosotros {
+    width: 500px;
+    background-color: $color-three;
+    display: flex;
+    color: white;
+    padding: 0.3em;
+    margin-top: 2.5em;
+    font-weight: 800;
+    position:absolute;
+    font-size: 3em;
+    z-index: 99;
+}
+
+/* fin nosotros */

@@ -1,0 +1,97 @@
+/* inicio seccion quienes somos index */
+
+.quienesSomosTitle {
+    color: rgb(255, 0, 126);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 0.6em;
+    margin-left: 11.5em;
+
+    @media screen and (max-width:1650px) {
+        margin-left: 0;
+    
+        } 
+        
+    @media screen and (max-width:1000px) {
+        font-size: 3em;
+        margin-right: 3em;
+    
+        }   
+
+    @media screen and (max-width:600px) {
+        font-size: 2.5em;
+           
+    }
+}
+
+.desarrolloQuienesSomos {
+    display: flex;
+
+    @media screen and (max-width:1520px) {
+        display: flex;
+        flex-direction: column;
+    
+        }   
+}
+
+.sectionQuienesSomos {
+    margin-left: 14em;
+    margin-top: 20em;
+
+    @media screen and (max-width:1800px) {
+        margin-top: 25em;
+    
+        }
+        
+        
+
+    
+    @media screen and (max-width:1400px) {
+        margin-top: 10em;
+    
+        }  
+        
+    @media screen and (max-width:1200px) {
+        margin-left: 6em;
+    
+        }       
+}
+
+
+.parrafoQuienesSomos {
+    margin-right: 10em;
+    margin-left: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+
+    @media screen and (max-width:1750px) {
+        margin-right: 6em;
+    
+        }   
+    
+}
+
+.imgQuienesSomos {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5em;
+
+    @media screen and (max-width:1520px) {
+        width: 50%;
+    
+        }   
+
+    @media screen and (max-width:1520px) {
+        width: 50%;
+    
+        }           
+}
+
+
+.parrafoUnoqs {
+    margin-bottom: 1em;
+}
+
+/* fin seccion quienes somos index */
