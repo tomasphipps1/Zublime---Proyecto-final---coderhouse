@@ -7,6 +7,16 @@
 .containerInfoContacto {
     padding-top: 16em;
     margin-left: 11.5em;
+
+    @media screen and (max-width:450px) {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+    
+        }       
 }
 
 .titleInfoContacto {
@@ -16,13 +26,32 @@
     font-weight:map-get($tituloSecciones , fontWeightTitle );
     margin-bottom: 0.3em;
 
+
+    @media screen and (max-width:450px) {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 1em;
+
+    
+        }     
 }
 
 .parrafoInfoContacto {
     width: 45%;
     font-family: 'Raleway', sans-serif;
-    font-size: map-get($cuerpo-de-texto , sizeFont);
-    font-weight: map-get($cuerpo-de-texto , fontWeight);
+    font-size: 1.4em;
+    font-weight: 400;
+
+    @media screen and (max-width:450px) {
+        width: 85%;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 3em;
+
+    
+        }   
+
+
 
 }
 
@@ -32,15 +61,36 @@
 
 .listConteinerInfo {
     margin-left: 8em;
+
+    @media screen and (max-width:450px) {
+        margin: 0;
+
+    
+        }   
+
 }
 
 .conteinerTextContacto {
     display: flex;
+
+    @media screen and (max-width:450px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+
+    
+        }     
 }
 
 .conteinerItemsInfo {
     display: flex;
     padding-bottom: 1.4em;
+
+    @media screen and (max-width:450px) {
+        width: 300px;
+        margin-left: 0;
+    }
 }
 
 .itemsInfoContacto {
@@ -48,6 +98,14 @@
     font-size: map-get($cuerpo-de-texto , sizeFont);
     font-weight: map-get($cuerpo-de-texto , fontWeight);
     padding-left: 1em;
+
+    @media screen and (max-width:450px) {
+        display: flex;
+        flex-wrap: wrap;
+        
+
+    
+        }     
 
 
 }
@@ -60,6 +118,14 @@
 .containerHunoContacto {
     display: flex;
     justify-content: flex-end;
+
+    @media screen and (max-width:450px)  {
+        
+
+        display:flex ;
+        justify-content: center;
+
+    }
 
 
 }
@@ -75,4 +141,24 @@
     position:absolute;
     font-size: 3em;
     z-index: 99;
+
+    @media screen and (max-width:450px)  {
+        
+
+        font-size: 1em;
+        margin-top: 9em;
+        width: 200px;
+
+        text-align: center;
+
+    }
+
+    .mapa {
+
+        @media screen and (max-width:450px) {
+            width: 100%;
+        }
+        
+    }
+ 
 }

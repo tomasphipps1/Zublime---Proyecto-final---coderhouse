@@ -19,12 +19,25 @@
     background-image: url(../multimedia/backgroundimagecuatro.png);
     background-repeat: no-repeat;
     background-position: top left;
+
+    @media screen and (max-width:450px) {
+        background-image: url(../multimedia/450pxcontactos.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        
+    }
 }
 
 #bodyThree {
     background-image: url(../multimedia/backgroundimagetres.png);
     background-repeat: no-repeat;
     background-position: top right;
+
+    @media screen and (max-width:450px) {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
 }
 
 #bodyFour {

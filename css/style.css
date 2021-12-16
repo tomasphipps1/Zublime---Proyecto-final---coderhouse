@@ -337,11 +337,25 @@
   background-repeat: no-repeat;
   background-position: top left;
 }
+@media screen and (max-width: 450px) {
+  #bodyTwo {
+    background-image: url(../multimedia/450pxcontactos.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+}
 
 #bodyThree {
   background-image: url(../multimedia/backgroundimagetres.png);
   background-repeat: no-repeat;
   background-position: top right;
+}
+@media screen and (max-width: 450px) {
+  #bodyThree {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
 }
 
 #bodyFour {
@@ -558,6 +572,16 @@
   padding-top: 20em;
   margin-left: 4em;
 }
+@media screen and (max-width: 450px) {
+  .quienesSomosContent {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15em;
+    padding-bottom: 3em;
+  }
+}
 
 .parrafoQuienesSomosSection {
   margin-right: 15em;
@@ -565,6 +589,14 @@
   font-family: "Raleway", sans-serif;
   font-size: 1.4em;
   font-weight: 400;
+}
+@media screen and (max-width: 450px) {
+  .parrafoQuienesSomosSection {
+    margin: 0;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
 
 .titleQuienesSomosPage {
@@ -575,10 +607,22 @@
   margin-bottom: 0.3em;
   margin-left: 0.3em;
 }
+@media screen and (max-width: 450px) {
+  .titleQuienesSomosPage {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
 
 .tituloParrafoContainer {
   margin-bottom: 6em;
   margin-right: 40em;
+}
+@media screen and (max-width: 450px) {
+  .tituloParrafoContainer {
+    margin: 0;
+  }
 }
 
 .parrafoUnoNosotros {
@@ -588,6 +632,12 @@
 .containerHunoNosotros {
   display: flex;
   justify-content: flex-end;
+}
+@media screen and (max-width: 450px) {
+  .containerHunoNosotros {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .hunoNosotros {
@@ -602,6 +652,16 @@
   font-size: 3em;
   z-index: 99;
 }
+@media screen and (max-width: 450px) {
+  .hunoNosotros {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    margin-top: 9em;
+    width: 200px;
+    text-align: center;
+  }
+}
 
 /* fin nosotros */
 .map {
@@ -614,6 +674,14 @@
   padding-top: 16em;
   margin-left: 11.5em;
 }
+@media screen and (max-width: 450px) {
+  .containerInfoContacto {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 
 .titleInfoContacto {
   color: #ff007e;
@@ -622,12 +690,27 @@
   font-weight: 700;
   margin-bottom: 0.3em;
 }
+@media screen and (max-width: 450px) {
+  .titleInfoContacto {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
 
 .parrafoInfoContacto {
   width: 45%;
   font-family: "Raleway", sans-serif;
   font-size: 1.4em;
   font-weight: 400;
+}
+@media screen and (max-width: 450px) {
+  .parrafoInfoContacto {
+    width: 85%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 3em;
+  }
 }
 
 .parrafoUnoContacto {
@@ -637,14 +720,32 @@
 .listConteinerInfo {
   margin-left: 8em;
 }
+@media screen and (max-width: 450px) {
+  .listConteinerInfo {
+    margin: 0;
+  }
+}
 
 .conteinerTextContacto {
   display: flex;
+}
+@media screen and (max-width: 450px) {
+  .conteinerTextContacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 
 .conteinerItemsInfo {
   display: flex;
   padding-bottom: 1.4em;
+}
+@media screen and (max-width: 450px) {
+  .conteinerItemsInfo {
+    width: 300px;
+    margin-left: 0;
+  }
 }
 
 .itemsInfoContacto {
@@ -652,6 +753,12 @@
   font-size: 1.4em;
   font-weight: 400;
   padding-left: 1em;
+}
+@media screen and (max-width: 450px) {
+  .itemsInfoContacto {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .iconInfoContacto {
@@ -662,6 +769,12 @@
 .containerHunoContacto {
   display: flex;
   justify-content: flex-end;
+}
+@media screen and (max-width: 450px) {
+  .containerHunoContacto {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .hunoContacto {
@@ -675,6 +788,19 @@
   position: absolute;
   font-size: 3em;
   z-index: 99;
+}
+@media screen and (max-width: 450px) {
+  .hunoContacto {
+    font-size: 1em;
+    margin-top: 9em;
+    width: 200px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hunoContacto .mapa {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
