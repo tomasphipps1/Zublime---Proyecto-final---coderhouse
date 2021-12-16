@@ -4,17 +4,38 @@
     font-weight: 700;
     font-size: 4em;
     margin-bottom: 0.6em;
+
+        @media screen and (max-width:450px) {
+            font-size: 2.5em;
+            text-align: center;
+
+        
+            }   
 }
 
 .comoComprarSeccion {
     padding-left: 10em;
     padding-top: 10em;
     padding-bottom: 5em;
+
+        @media screen and (max-width: 450px) {
+            padding: 0;
+            margin-top: 15em;
+            display: flex;
+            flex-direction: column;
+        
+        }  
     
 }
 
 .seccionIcon {
     display: flex;
+    width: 100%;
+
+    @media screen and (max-width: 450px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     
 }
@@ -25,6 +46,12 @@
     font-weight: 700;
     font-size: 5em;
 
+        @media screen and (max-width:450px) {
+           font-size: 3em;
+
+        
+            }  
+
 }
 
 .iconContainerComoComprar {
@@ -32,19 +59,43 @@
     flex-direction: column;
     align-items: center;
     margin-right: 22em;
+
+    @media screen and (max-width:450px) {
+        margin-right: 0;
+
+    
+        }   
 }
 
 .textPasos {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
+
+        @media screen and (max-width: 450px) {
+            margin-left: 2em;
+            margin-right: 2em;
+            margin-bottom: 3em;
+        }
 }
 
 .imgEnviosContainer {
     width: 100%;
     margin-bottom: 2em;
+
+        @media screen and (max-width: 450px) {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1em;
+        }
+
+
 }
 
-
+.imgEnvios {
+    @media screen and (max-width: 450px) {
+        width: 30%;
+    }
+}

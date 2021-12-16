@@ -8,21 +8,14 @@
     margin-bottom: 0.6em;
     margin-left: 11.5em;
 
-    @media screen and (max-width:1650px) {
-        margin-left: 0;
-    
-        } 
-        
-    @media screen and (max-width:1000px) {
-        font-size: 3em;
-        margin-right: 3em;
-    
-        }   
+        @media screen and (max-width:450px) {
+            font-size: 2.5em;
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 1em;
 
-    @media screen and (max-width:600px) {
-        font-size: 2.5em;
-           
-    }
+        
+            }   
 }
 
 .desarrolloQuienesSomos {
@@ -31,6 +24,7 @@
     @media screen and (max-width:1520px) {
         display: flex;
         flex-direction: column;
+        align-items: center;
     
         }   
 }
@@ -39,23 +33,12 @@
     margin-left: 14em;
     margin-top: 20em;
 
-    @media screen and (max-width:1800px) {
-        margin-top: 25em;
-    
-        }
-        
-        
+    @media screen and (max-width:450px) {
+        margin: 0;
+        margin-top: 15em;
 
     
-    @media screen and (max-width:1400px) {
-        margin-top: 10em;
-    
-        }  
-        
-    @media screen and (max-width:1200px) {
-        margin-left: 6em;
-    
-        }       
+        } 
 }
 
 
@@ -66,8 +49,12 @@
     font-weight: 400;
     font-size: 1.4em;
 
-    @media screen and (max-width:1750px) {
-        margin-right: 6em;
+    @media screen and (max-width:450px) {
+        margin-top: 2em;
+       margin-right: 2em;
+       margin-left: 2em;
+
+        
     
         }   
     
@@ -78,15 +65,10 @@
     width: 100%;
     margin-bottom: 5em;
 
-    @media screen and (max-width:1520px) {
-        width: 50%;
-    
-        }   
-
-    @media screen and (max-width:1520px) {
-        width: 50%;
-    
-        }           
+    @media screen and (max-width:450px) {
+        margin-bottom: 1em;
+        width: 80%;
+    }         
 }
 
 

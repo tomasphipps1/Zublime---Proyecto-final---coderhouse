@@ -15,53 +15,36 @@
 
 /* inicio seccion productos main*/
 .nuestrosProductos {
-  padding-top: 5em;
+  padding-top: 3em;
   padding-left: 10em;
   width: 100%;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 450px) {
   .nuestrosProductos {
-    padding-top: 2em;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .nuestrosProductos {
-    padding-left: 6em;
-    padding-top: 6em;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
   }
 }
 
 .conteinerProductosDestacados {
   display: flex;
 }
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 450px) {
   .conteinerProductosDestacados {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
 }
 
 .productosDestacados {
   margin-right: 5em;
 }
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 450px) {
   .productosDestacados {
-    margin-right: 3em;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .productosDestacados {
-    margin-right: 2em;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .productosDestacados {
-    margin-right: 1em;
-  }
-}
-@media screen and (max-width: 1200x) {
-  .productosDestacados {
-    margin-right: 3em;
+    margin-right: 0;
   }
 }
 
@@ -72,15 +55,10 @@
   font-size: 4em;
   margin-bottom: 0.6em;
 }
-@media screen and (max-width: 1000px) {
-  .nuestrosProductosTitle {
-    font-size: 3em;
-    margin-right: 3em;
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .nuestrosProductosTitle {
     font-size: 2.5em;
+    text-align: center;
   }
 }
 
@@ -89,7 +67,7 @@
   font-weight: 400;
   font-size: 1.8em;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 450px) {
   .textoProductos {
     font-size: 1.5em;
   }
@@ -113,10 +91,11 @@
   align-items: flex-end;
   justify-content: flex-end;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 450px) {
   .productosDestacadosButon {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }
 
@@ -127,15 +106,17 @@
   padding-left: 1em;
   margin-right: 2em;
 }
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 450px) {
   .verMasButon {
-    margin-top: 4em;
+    margin-top: 2em;
+    padding: 0;
+    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 450px) {
   .imgProductosDestacados {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -147,9 +128,20 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
+@media screen and (max-width: 450px) {
+  .verMasTextButon {
+    font-size: 2em;
+    margin: 0;
+  }
+}
 
 .imageButonProductos {
   width: 50px;
+}
+@media screen and (max-width: 450px) {
+  .imageButonProductos {
+    width: 50%;
+  }
 }
 
 /*fin seccion productos main*/
@@ -332,23 +324,9 @@
   background-repeat: no-repeat;
   background-position: top left;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 450px) {
   #bodyOne {
-    background-image: url(../multimedia/backgroundimageindexmedia.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-  }
-}
-@media screen and (max-width: 1250px) {
-  #bodyOne {
-    background-image: url(../multimedia/backgroundimageindexmobil.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-  }
-}
-@media screen and (max-width: 1250px) and (max-width: 600px) {
-  #bodyOne {
-    background-image: url(../multimedia/backgroundimageindexsmall.png);
+    background-image: url(../multimedia/450pxindex.png);
     background-repeat: no-repeat;
     background-position: top left;
   }
@@ -399,6 +377,12 @@
   font-size: 5em;
   z-index: 99;
 }
+@media screen and (max-width: 450px) {
+  .hunoIndex {
+    font-size: 1em;
+    margin-top: 9em;
+  }
+}
 
 /* fin carousel*/
 /* inicio seccion quienes somos index */
@@ -410,20 +394,12 @@
   margin-bottom: 0.6em;
   margin-left: 11.5em;
 }
-@media screen and (max-width: 1650px) {
-  .quienesSomosTitle {
-    margin-left: 0;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .quienesSomosTitle {
-    font-size: 3em;
-    margin-right: 3em;
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .quienesSomosTitle {
     font-size: 2.5em;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 1em;
   }
 }
 
@@ -434,6 +410,7 @@
   .desarrolloQuienesSomos {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -441,19 +418,10 @@
   margin-left: 14em;
   margin-top: 20em;
 }
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 450px) {
   .sectionQuienesSomos {
-    margin-top: 25em;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .sectionQuienesSomos {
-    margin-top: 10em;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .sectionQuienesSomos {
-    margin-left: 6em;
+    margin: 0;
+    margin-top: 15em;
   }
 }
 
@@ -464,9 +432,11 @@
   font-weight: 400;
   font-size: 1.4em;
 }
-@media screen and (max-width: 1750px) {
+@media screen and (max-width: 450px) {
   .parrafoQuienesSomos {
-    margin-right: 6em;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
   }
 }
 
@@ -475,14 +445,10 @@
   width: 100%;
   margin-bottom: 5em;
 }
-@media screen and (max-width: 1520px) {
+@media screen and (max-width: 450px) {
   .imgQuienesSomos {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 1520px) {
-  .imgQuienesSomos {
-    width: 50%;
+    margin-bottom: 1em;
+    width: 80%;
   }
 }
 
@@ -498,15 +464,36 @@
   font-size: 4em;
   margin-bottom: 0.6em;
 }
+@media screen and (max-width: 450px) {
+  .comoComprarTitle {
+    font-size: 2.5em;
+    text-align: center;
+  }
+}
 
 .comoComprarSeccion {
   padding-left: 10em;
   padding-top: 10em;
   padding-bottom: 5em;
 }
+@media screen and (max-width: 450px) {
+  .comoComprarSeccion {
+    padding: 0;
+    margin-top: 15em;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .seccionIcon {
   display: flex;
+  width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .seccionIcon {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .numberIcon {
@@ -515,6 +502,11 @@
   font-weight: 700;
   font-size: 5em;
 }
+@media screen and (max-width: 450px) {
+  .numberIcon {
+    font-size: 3em;
+  }
+}
 
 .iconContainerComoComprar {
   display: flex;
@@ -522,18 +514,43 @@
   align-items: center;
   margin-right: 22em;
 }
+@media screen and (max-width: 450px) {
+  .iconContainerComoComprar {
+    margin-right: 0;
+  }
+}
 
 .textPasos {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .textPasos {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+  }
 }
 
 .imgEnviosContainer {
   width: 100%;
   margin-bottom: 2em;
+}
+@media screen and (max-width: 450px) {
+  .imgEnviosContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imgEnvios {
+    width: 30%;
+  }
 }
 
 /* NOSOTROS */

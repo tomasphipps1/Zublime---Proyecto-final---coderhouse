@@ -7,26 +7,12 @@
     background-repeat: no-repeat;
     background-position: top left;
 
-    @media screen and (max-width:1400px) {
-        background-image: url(../multimedia/backgroundimageindexmedia.png);
-        background-repeat: no-repeat;
-        background-position: top left;
-    }
-    
-
-    @media screen and (max-width:1250px) {
-        background-image: url(../multimedia/backgroundimageindexmobil.png);
-        background-repeat: no-repeat;
-        background-position: top left;
-
-    @media screen and (max-width:600px) {
-        background-image: url(../multimedia/backgroundimageindexsmall.png);
+    @media screen and (max-width:450px) {
+        background-image: url(../multimedia/450pxindex.png);
         background-repeat: no-repeat;
         background-position: top left;
     }
 
-        
-    }
 }
 
 #bodyTwo {
