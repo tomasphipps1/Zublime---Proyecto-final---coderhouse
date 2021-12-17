@@ -44,6 +44,12 @@
     background-image: url(../multimedia/backgroundimagedos.png);
     background-repeat: no-repeat;
     background-position: top right;
+
+    @media screen and (max-width:450px) {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
 }
 
 /* End Background image */
