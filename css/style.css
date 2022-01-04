@@ -107,6 +107,104 @@
   height: 100%;
 }
 
+.conteinerParrafoPorEncima {
+  width: 967px;
+  height: 600px;
+  position: absolute;
+  z-index: 10;
+  display: grid;
+  grid-area: foto-1;
+  padding: 1em;
+  background: linear-gradient(#000000, rgba(255, 255, 255, 0.063));
+  opacity: 0%;
+}
+.conteinerParrafoPorEncima:hover {
+  transition: all 0.7s;
+  opacity: 70%;
+}
+
+.parrafoPorEncima {
+  padding-right: 20em;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.conteinerParrafoPorEncimaTwo {
+  width: 477px;
+  height: 300px;
+  position: absolute;
+  z-index: 10;
+  display: grid;
+  grid-area: foto2;
+  padding: 1em;
+  background: linear-gradient(#000000, rgba(255, 255, 255, 0.063));
+  opacity: 0%;
+}
+.conteinerParrafoPorEncimaTwo:hover {
+  transition: all 0.7s;
+  opacity: 70%;
+}
+
+.parrafoPorEncimaTwo {
+  padding-right: 2em;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.conteinerParrafoPorEncimaThree {
+  width: 477px;
+  height: 300px;
+  position: absolute;
+  z-index: 10;
+  display: grid;
+  grid-area: foto-3;
+  padding: 1em;
+  background: linear-gradient(#000000, rgba(255, 255, 255, 0.063));
+  opacity: 0%;
+}
+.conteinerParrafoPorEncimaThree:hover {
+  transition: all 0.7s;
+  opacity: 70%;
+}
+
+.parrafoPorEncimaThree {
+  padding-right: 4em;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.conteinerParrafoPorEncimaFour {
+  width: 1458px;
+  height: 278px;
+  position: absolute;
+  z-index: 10;
+  display: grid;
+  grid-area: foto-4;
+  padding: 1em;
+  background: linear-gradient(rgba(255, 255, 255, 0.063), #000000);
+  opacity: 0%;
+}
+.conteinerParrafoPorEncimaFour:hover {
+  transition: all 0.7s;
+  opacity: 70%;
+}
+
+.parrafoPorEncimaFour {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 4em;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
 /* inicio seccion productos main*/
 .nuestrosProductos {
   padding-top: 3em;
