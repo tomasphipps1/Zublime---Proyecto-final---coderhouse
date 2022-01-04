@@ -5,11 +5,10 @@
 
 
 .headerContainer {
-    height: 70px;
+    
     width: 100%;
     background-color: $color-one;
-    display: flex;
-    justify-content: space-between;
+
     position: fixed;
     z-index: 100;
 
@@ -20,13 +19,12 @@
 
 .logoHeader {
     width: 55px;
-    margin-top: 1.1em;
-    margin-left: 1em;
+    margin-top: 0;
+    margin-left: 0;
 
     @media screen and (max-width:950px) {
         width: 55px;
-        margin-top: 1.1em;
-        margin-left: 1em;
+
         
     }
 
@@ -109,7 +107,8 @@
 
 
 .carritoComprasImg {
-    width: 1.2em;
+    padding-top: 0.8em;
+    width: 1.5em;
 
     @media screen and (max-width:950px) {
     margin-right: 1em;
