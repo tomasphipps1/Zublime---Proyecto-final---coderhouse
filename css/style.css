@@ -645,9 +645,9 @@
 }
 @media screen and (max-width: 450px) {
   #bodyFour {
-    background-image: none;
+    background-image: url(../multimedia/secciontrabajosmobilebackground.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: top;
   }
 }
 
