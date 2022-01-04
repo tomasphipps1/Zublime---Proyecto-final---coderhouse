@@ -30,25 +30,6 @@
 
 }
 
-.headerContainerMediaScreen {
-    display: none;
-    margin-right: 1em;
-    
-
-    @media screen and (max-width:950px) {
-        display: flex;
-    }
-    
-        
-
-}
-
-.tomasContainerFluid {
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: flex-end;
-}
 
 
 
@@ -77,6 +58,11 @@
     display: flex;
     justify-content: end;
 
+    @media screen and (max-width:950px) {
+        display: flex;
+        align-items: center;
+    }
+
  }
 
 
@@ -91,19 +77,13 @@
     }
 
     @media screen and (max-width:950px) {
-        padding-bottom: 1em;
+        margin: 0.2em;
+        padding-bottom: 0;
     }
 
 
 }
 
-.tomasButton {
-    width: 40px;
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-    transform: none;
-}
 
 
 .carritoComprasImg {
@@ -111,7 +91,8 @@
     width: 1.5em;
 
     @media screen and (max-width:950px) {
-    margin-right: 1em;
+    padding-top: 0;
+    margin-left: 0;
     display: flex;
     width: 1.6em;
     }
@@ -120,24 +101,8 @@
 }
 
 
+// fin header style
 
-.cajaDesplegableTomas {
-   background-color: white;
-}
 
-.tomasItemsListaDesplegable {
-    font-weight: 500;
-    padding-left: 0.3em;
-    font-size: 1.1em;
-    font-family: 'Raleway', sans-serif;
-    color: black; 
 
-    &:hover {
-        color: black;
-        font-weight: 900;
-    }
-}
 
-.menuIcon {
-    width: 35px;
-}
