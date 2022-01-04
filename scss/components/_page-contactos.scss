@@ -5,7 +5,7 @@
 }
 
 .containerInfoContacto {
-    padding-top: 16em;
+    padding-top: 22em;
     margin-left: 11.5em;
 
     @media screen and (max-width:450px) {
@@ -16,7 +16,12 @@
 
 
     
-        }       
+        }
+        
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            margin-left: 5em;
+            padding-top: 20em;
+        }
 }
 
 .titleInfoContacto {
@@ -33,7 +38,12 @@
         margin-bottom: 1em;
 
     
-        }     
+        }
+        
+        
+        @media screen and (min-width:450px) and (max-width:1200px) {
+
+        }
 }
 
 .parrafoInfoContacto {
@@ -49,7 +59,12 @@
         margin-bottom: 3em;
 
     
-        }   
+        }  
+        
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            width: 50%;
+           
+        }
 
 
 
@@ -67,7 +82,11 @@
 
     
         }   
-
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            margin-left: 3em;
+            
+           
+        }
 }
 
 .conteinerTextContacto {

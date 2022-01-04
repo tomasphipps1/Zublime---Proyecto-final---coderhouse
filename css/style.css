@@ -1045,7 +1045,7 @@
 }
 
 .containerInfoContacto {
-  padding-top: 16em;
+  padding-top: 22em;
   margin-left: 11.5em;
 }
 @media screen and (max-width: 450px) {
@@ -1054,6 +1054,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1200px) {
+  .containerInfoContacto {
+    margin-left: 5em;
+    padding-top: 20em;
   }
 }
 
@@ -1071,7 +1077,6 @@
     margin-bottom: 1em;
   }
 }
-
 .parrafoInfoContacto {
   width: 45%;
   font-family: "Raleway", sans-serif;
@@ -1086,6 +1091,11 @@
     margin-bottom: 3em;
   }
 }
+@media screen and (min-width: 450px) and (max-width: 1200px) {
+  .parrafoInfoContacto {
+    width: 50%;
+  }
+}
 
 .parrafoUnoContacto {
   margin-bottom: 1em;
@@ -1097,6 +1107,11 @@
 @media screen and (max-width: 450px) {
   .listConteinerInfo {
     margin: 0;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1200px) {
+  .listConteinerInfo {
+    margin-left: 3em;
   }
 }
 
