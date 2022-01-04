@@ -4,12 +4,12 @@
 
 #bodyOne {
     background-image: url(../multimedia/backgroundimage.png);
-    background-repeat: no-repeat;
-    background-position: top left;
 
-    @media screen and (max-width:1200px) {
-        background-image: none;
-        
+
+    @media screen and (min-width:450px) and (max-width:1200px) {
+        background-image: url(../multimedia/backgroundimagemediaindex.png);
+        background-repeat: no-repeat;
+        background-position: top left;
     }
 
     @media screen and (max-width:450px) {

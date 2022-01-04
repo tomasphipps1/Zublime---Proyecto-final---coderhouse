@@ -1,3 +1,6 @@
+// inicio seccion tres como comprar
+
+
 .comoComprarTitle {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -24,7 +27,15 @@
             display: flex;
             flex-direction: column;
         
-        }  
+        }
+        
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            display: flex;
+            flex-direction: column;
+            padding: 4em;
+            align-items: center;
+            padding-top: 0em;
+        }      
     
 }
 
@@ -36,6 +47,11 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    @media screen and (min-width:450px) and (max-width:780px) {
+        display: flex;
+        flex-direction: column;
+    }   
 
     
 }
@@ -64,20 +80,28 @@
         margin-right: 0;
 
     
-        }   
+        }
+        
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            margin-right: 5em;
+        }    
 }
 
 .textPasos {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-align: center;
 
         @media screen and (max-width: 450px) {
             margin-left: 2em;
             margin-right: 2em;
             margin-bottom: 3em;
+        }
+
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            width: 250px;
         }
 }
 
@@ -91,6 +115,14 @@
             margin-bottom: 1em;
         }
 
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            height: 180px;
+            margin-bottom: 1em;
+            display: flex;
+            justify-content: center;
+            
+        }
+
 
 }
 
@@ -98,4 +130,15 @@
     @media screen and (max-width: 450px) {
         width: 30%;
     }
+
+
 }
+
+.imgEnviosContainerMediaScreen {
+    @media screen and (min-width:450px) and (max-width:1200px) {
+        width: 85%;
+    }
+}
+
+
+// fin seccion tres como comprar
