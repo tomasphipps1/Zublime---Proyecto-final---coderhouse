@@ -7,10 +7,16 @@
     background-repeat: no-repeat;
     background-position: top left;
 
+    @media screen and (max-width:1200px) {
+        background-image: none;
+        
+    }
+
     @media screen and (max-width:450px) {
         background-image: url(../multimedia/450pxindex.png);
         background-repeat: no-repeat;
         background-position: top left;
+        
     }
 
 }
