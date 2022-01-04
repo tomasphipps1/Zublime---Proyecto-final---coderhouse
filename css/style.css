@@ -7,6 +7,7 @@
   font-family: "Raleway", sans-serif;
   margin: none;
   padding: none;
+  box-sizing: 0;
 }
 * a {
   text-decoration: none;
@@ -56,6 +57,7 @@
 }
 @media screen and (max-width: 450px) {
   .galeriaDeFotos {
+    margin: 0;
     padding: 0;
     padding-top: 14em;
   }
@@ -88,12 +90,14 @@
 }
 @media screen and (max-width: 450px) {
   .fotosGrid {
-    padding: 2em;
+    margin-left: 0.3em;
     margin-bottom: 5em;
     display: flex;
     height: auto;
-    width: 100%;
+    width: 90%;
     flex-direction: column;
+    padding: 1em;
+    box-sizing: content-box;
   }
 }
 
@@ -141,7 +145,7 @@
 @media screen and (max-width: 450px) {
   .conteinerParrafoPorEncima {
     height: 200px;
-    width: 350px;
+    width: 90%;
     display: flex;
   }
   .conteinerParrafoPorEncima:hover {
@@ -182,7 +186,7 @@
 @media screen and (max-width: 450px) {
   .conteinerParrafoPorEncimaTwo {
     height: 200px;
-    width: 350px;
+    width: 90%;
     display: flex;
   }
   .conteinerParrafoPorEncimaTwo:hover {
@@ -223,7 +227,7 @@
 @media screen and (max-width: 450px) {
   .conteinerParrafoPorEncimaThree {
     height: 200px;
-    width: 350px;
+    width: 90%;
     display: flex;
   }
   .conteinerParrafoPorEncimaThree:hover {
