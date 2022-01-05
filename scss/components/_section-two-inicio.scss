@@ -42,7 +42,7 @@
 
 .sectionQuienesSomos {
     margin-left: 14em;
-    margin-top: 24em;
+    margin-top: 20em;
 
     @media screen and (max-width:450px) {
         margin: 0;
@@ -52,6 +52,7 @@
         }
         
         @media screen and (min-width:450px) and (max-width:1200px) {
+            width: 450px;
             margin: 8em;
             margin-top: 7em;
 
