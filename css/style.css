@@ -41,6 +41,11 @@
 .cointeinerGeneralProductos {
   padding-top: 24em;
 }
+@media screen and (max-width: 450px) {
+  .cointeinerGeneralProductos {
+    padding-top: 18em;
+  }
+}
 
 .titleInfoProductos {
   color: #ff007e;
@@ -66,12 +71,26 @@
   margin-left: 15em;
   margin-right: 15em;
 }
+@media screen and (max-width: 450px) {
+  .conteinerFiltrosProductos {
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .itemsFiltros {
   margin: 0;
   margin-right: 2em;
   font-family: "Raleway", sans-serif;
   font-size: 1.4em;
+}
+@media screen and (max-width: 450px) {
+  .itemsFiltros {
+    margin: 0;
+  }
 }
 
 .linkFiltros {
@@ -96,6 +115,13 @@
   margin-left: 15em;
   margin-right: 15em;
   justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+  .conteinerProductosPage {
+    margin-right: 1em;
+    margin-left: 1em;
+    justify-content: center;
+  }
 }
 
 .conteinerProductoPage {
@@ -793,6 +819,13 @@
   background-image: url(../multimedia/backgroundpageproductos.png);
   background-repeat: no-repeat;
   background-position: top left;
+}
+@media screen and (max-width: 450px) {
+  #bodyFive {
+    background-image: url(../multimedia/backgroundpageproductosmobile.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
 }
 
 /* End Background image */

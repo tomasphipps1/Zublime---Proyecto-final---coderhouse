@@ -62,6 +62,13 @@
     background-image: url(../multimedia/backgroundpageproductos.png);
     background-repeat: no-repeat;
     background-position: top left;
+
+    @media screen and (max-width:450px) {
+        background-image: url(../multimedia/backgroundpageproductosmobile.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+        
+    }
 }
 
 /* End Background image */
