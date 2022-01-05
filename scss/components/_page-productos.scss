@@ -77,6 +77,18 @@
             flex-direction: column;
             align-items: center;
         }
+
+        @media screen and (min-width:800px) and (max-width:1200px) {
+            margin-left: 8em;
+            margin-right: 8em;
+            justify-content: space-between;
+       }
+
+       @media screen and (min-width:450px) and (max-width:800px) {
+           margin-left: 3em;
+           margin-right: 3em;
+           justify-content: space-between;
+      }
     }
 
 
@@ -90,6 +102,10 @@
         @media screen and (max-width:450px) {
            margin: 0;
         }
+
+        @media screen and (min-width:450px) and (max-width:1200px) {
+            margin-right: 0.5em;
+       }
     }
 
     .linkFiltros {
@@ -124,6 +140,16 @@
             margin-left: 1em;
             justify-content: center;
         }
+
+        @media screen and (min-width:800px) and (max-width:1200px) {
+             margin-left: 8em;
+             margin-right: 8em;
+        }
+
+        @media screen and (min-width:450px) and (max-width:800px) {
+            margin-left: 3em;
+            margin-right: 3em;
+       }
         
     }
 
