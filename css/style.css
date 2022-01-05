@@ -13,6 +13,141 @@
   list-style: none;
 }
 
+/* comienzo seccion productos */
+/*Variables colores */
+/*Variables texto*/
+/* mapa */
+.hunoProductos {
+  width: 500px;
+  background-color: yellow;
+  display: flex;
+  color: white;
+  padding: 0.3em;
+  margin-top: 2.5em;
+  font-weight: 800;
+  position: absolute;
+  font-size: 3em;
+  z-index: 99;
+}
+@media screen and (max-width: 450px) {
+  .hunoProductos {
+    font-size: 1em;
+    margin-top: 9em;
+    width: 200px;
+    text-align: center;
+  }
+}
+
+.cointeinerGeneralProductos {
+  padding-top: 24em;
+}
+
+.titleInfoProductos {
+  color: #ff007e;
+  font-family: "Raleway", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 0.6em;
+  text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .titleInfoProductos {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+
+.conteinerFiltrosProductos {
+  background-color: #ff007e;
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.itemsFiltros {
+  margin: 0;
+  margin-right: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4em;
+}
+
+.linkFiltros {
+  color: white;
+  font-weight: 500;
+}
+.linkFiltros:hover {
+  transition: all 0.1s;
+  color: white;
+  font-weight: 700;
+}
+
+.textFiltrarPor {
+  margin: 0;
+  font-weight: 500;
+}
+
+.conteinerProductosPage {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  margin-left: 15em;
+  margin-right: 15em;
+  justify-content: space-between;
+}
+
+.conteinerProductoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.imgProducto {
+  width: 300px;
+}
+
+.nombreProducto {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.precioProducto {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.conteinerBotonCarrito {
+  background-color: black;
+  padding: 0.5em;
+  transition: all 0.2s;
+  border: 2px solid black;
+}
+.conteinerBotonCarrito:hover {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.botonCarrito {
+  padding: 1em;
+  font-weight: 500;
+  color: white;
+  font-size: 1em;
+  transition: all 0.2s;
+}
+.botonCarrito:hover {
+  color: black;
+}
+
+/* fin seccion productos */
 /*Variables colores */
 /*Variables texto*/
 /* mapa */
@@ -652,6 +787,12 @@
     background-repeat: no-repeat;
     background-position: top;
   }
+}
+
+#bodyFive {
+  background-image: url(../multimedia/backgroundpageproductos.png);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 /* End Background image */
