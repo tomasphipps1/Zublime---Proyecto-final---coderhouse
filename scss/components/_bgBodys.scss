@@ -63,6 +63,10 @@
         background-repeat: no-repeat;
         background-position: top;
     }
+
+    @media screen and (min-width:450px) and (max-width:1200px) {
+        background-image: none;
+    }
 }
 
 #bodyFive {
