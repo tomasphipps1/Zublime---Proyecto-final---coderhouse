@@ -319,7 +319,7 @@
 }
 
 .conteinerParrafoPorEncima {
-  width: 967px;
+  width: 978px;
   height: 600px;
   position: absolute;
   z-index: 10;
@@ -360,7 +360,7 @@
 }
 
 .conteinerParrafoPorEncimaTwo {
-  width: 476px;
+  width: 481px;
   height: 300px;
   position: absolute;
   z-index: 10;
@@ -401,7 +401,7 @@
 }
 
 .conteinerParrafoPorEncimaThree {
-  width: 476px;
+  width: 481px;
   height: 300px;
   position: absolute;
   z-index: 10;
@@ -442,8 +442,8 @@
 }
 
 .conteinerParrafoPorEncimaFour {
-  width: 1458px;
-  height: 278px;
+  width: 1475px;
+  height: 280px;
   position: absolute;
   z-index: 10;
   display: grid;
